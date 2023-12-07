@@ -1,0 +1,21 @@
+@import '../../assets/styles/variables.scss';
+
+.container{
+    background-color: #fdf3e1;
+    .itemTitle{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .itemName {
+        font-weight: bold;
+    }
+    .itemDuration {
+        margin-top: 10px;
+    }
+    .itemLocation {
+        color: rgb(90, 179, 231);
+    }
+    .itemDescription {
+        margin-top: 10px;
+    }
+}

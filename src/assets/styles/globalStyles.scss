@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "./variables.scss";
+
+html {
+    font-size: 16px;
+}
+
+.gs-section {
+    border-bottom: 1px solid $border-color;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+
+    .gs-header {
+        color: $primary-color;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .gs-subHeader {
+        color: #1d1d1d9e;
+        font-weight: normal;
+    }
+}
+
+.gs-subSection {
+    margin: 20px 0px;
+
+    .gs-header {
+        color: $primary-color;
+        font-weight: normal;
+    }
+}
+
+.border {
+    border-bottom: 1px solid $border-color;
+}

@@ -1,0 +1,26 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+.parallax {
+  background-image: url("../../assets/images/keyboard.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  text-align: center;
+
+  .textContainer {
+    z-index: 2;
+    .textContent {
+      .hr {
+        border-top: 1px solid black;
+        margin: 20px;
+      }
+    }
+  }
+
+}

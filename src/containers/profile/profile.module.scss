@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables.scss';
+
+.profileImage {
+    display: flex;
+
+    img {
+        margin: auto;
+        width: 200px;
+        border-radius: 50%;
+        border: 5px solid $primary-color;
+    }
+}
+
+.label {
+    font-weight: bold;
+}

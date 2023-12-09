@@ -1,4 +1,3 @@
-import * as React from 'react';
 import classes from './profile.module.scss';
 import ProfileImage from '../../assets/images/profile.png';
 

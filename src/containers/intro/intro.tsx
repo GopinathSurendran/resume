@@ -5,7 +5,7 @@ import AnimationText, { animate } from '../../uiComponents/animation/animation';
 const Intro = () => {
 
     React.useEffect(() => {
-        document.querySelectorAll("#intro-user-name h1").forEach((x, i, t) => {
+        document.querySelectorAll("#intro-user-name h1").forEach((x, i) => {
             setTimeout(() => {
                 animate(x);
                 setInterval(() => {

@@ -1,11 +1,10 @@
-import * as React from 'react';
 import classes from './experiences.module.scss';
 import { educations, careers } from './data';
 
 
 const Experiences = () => {
-    const renderItems = (items) => {
-        return items.map(item => {
+    const renderItems = (items: any) => {
+        return items.map((item: any) => {
             return (
                 <div className="row mb-5">
                     <div className="col-4">

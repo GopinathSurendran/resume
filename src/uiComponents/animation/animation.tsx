@@ -9,7 +9,7 @@ export type AnimationProps = {
     tag?: string;
 }
 
-export const animate = (x) => {
+export const animate = (x: any) => {
     if (x.className.indexOf('animate__animated') !== -1) {
         return;
     }
@@ -23,7 +23,7 @@ export const animate = (x) => {
 
 const AnimationText = (props: AnimationProps) => {
 
-    const onMouseEnter = (event) => {
+    const onMouseEnter = (event: any) => {
         animate(event.target);
     }
 

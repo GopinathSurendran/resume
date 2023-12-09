@@ -1,18 +1,17 @@
-import * as React from 'react';
 import classes from './abilities.module.scss';
 import { languages, skills, tools } from './data';
 
 
 const Abilities = () => {
-    const renderStars = (filledStars) => {
+    const renderStars = (filledStars: any) => {
         const result: any = [];
         for (let i = 0; i < 5; i++) {
             result.push(<span className={`${i < filledStars ? classes.filledStar : ''} ${classes.star}`}>★ </span>);
         }
         return result;
     }
-    const renderItems = (items) => {
-        return items.map(item => {
+    const renderItems = (items: any) => {
+        return items.map((item: any) => {
             return (
                 <div className="col-12 col-md-6 d-flex justify-content-between">
                     <div className={classes.itemName}>{item.name}</div>
